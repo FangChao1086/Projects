@@ -3,7 +3,9 @@
 
 ## 文件介绍
 ### data
-data存放数据文件，其中原始数据文件为playlistdetail.all.json，其他的文件都是此文件解析而来
+data存放数据文件，其中原始数据文件为playlistdetail.all.json，其他的文件都是此文件解析而来；原始文件见百度云网盘  
+链接：https://pan.baidu.com/s/1rkWaAD4AA01lp4PrNLN-1w 
+提取码：sgor 
 
 ### preproccess
 parser  
