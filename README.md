@@ -6,6 +6,7 @@
 链接：https://pan.baidu.com/s/1dMCfQm8WiHzOPb41-Qrc4g
 提取码：cotu 
 
+# 1.Data_transform_and_preprocessing.ipynb
 ## 数据解析
 1. 解析歌单数据，将数据解析成 歌单+歌曲的格式  
 例子：☀清新夏日☀清新男声控|我想漂浮感受磁场##欧美,电子,另类/独立##423245641##11355	414691355:::Lost (As I Am):::Superwalkers:::80.0	410802620:::Next Escape:::Viceroy:::100.0	419549837:::Silhouette:::Goldroom:::60.0 ...
