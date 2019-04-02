@@ -3,8 +3,8 @@
 
 ## 文件介绍
 ### data
-原始文件见百度云网盘，需要解压后放在data文件夹中  
-链接：https://pan.baidu.com/s/1dMCfQm8WiHzOPb41-Qrc4g 
+原始文件见百度云网盘，data里面的playlistdetail.all.json文件需要解压  
+链接：https://pan.baidu.com/s/1dMCfQm8WiHzOPb41-Qrc4g
 提取码：cotu 
 
 ### preproccess
