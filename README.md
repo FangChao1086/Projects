@@ -18,3 +18,6 @@
 
 3. 生成歌单id到歌单名的映射
 4. 生成歌曲id到歌曲名的映射
+
+## 2.model_training_and_evaluation.ipynb
+模型训练与评估
