@@ -1,9 +1,9 @@
 # o2o优惠券使用预测
 
-## 特征工程
-`用户相关特征（删除重复用户）`
-<details><summary>GetUserRelatedFeature</summary>  
-
+<details><summary>特征工程</summary>
+ 
+### 用户相关特征（删除重复用户）
+#### GetUserRelatedFeature
 * 用户（使用优惠券购买）的商户数量
 * 用户（使用优惠券）与该商户最近门店的距离（最小，最大，平均，中位数）
 * 用户（使用优惠券）的购买数量
@@ -14,11 +14,9 @@
   * 用户（使用优惠券）的购买数量 / 用户购买的总数量
 * 用户购买中（使用优惠券）占领取优惠券的比例
   * 用户（使用优惠券）的购买数量 / 用户领取优惠券的数量
-  </details>
 
-`商户相关特征（删除重复商户）`
-<details><summary>GetMerchantRelatedFeature</summary>
-
+### 商户相关特征（删除重复商户）
+#### GetMerchantRelatedFeature
 * 商户卖出商品（有户有或无优惠券）的数量
 * 商户卖出商品（用户使用优惠券）的数量
 * 商户优惠券被领取总数量
@@ -27,11 +25,9 @@
   * 商户卖出商品（用户使用优惠券）的数量 / 商户卖出商品（有户有或无优惠券）的数量
 * 商户卖出商品（用户使用优惠券）占领取优惠券总比例
   * 商户卖出商品（用户使用优惠券）的数量 / 商户优惠券被领取总数量
-  </details>
 
-`用户商户交叉特征（删除重复[用户+商户]）`
-<details><summary>GetUserAndMerchantRelatedFeature</summary>
- 
+### 用户商户交叉特征（删除重复[用户+商户]）
+#### GetUserAndMerchantRelatedFeature
 * 特定用户在特定商家购买的次数
 * 特定用户在特定商家领取的优惠券数目
 * 特定用户在特定商家使用优惠券购买的数量
@@ -41,20 +37,16 @@
 * 特定用户在特定商家使用优惠券购买的数量 / 特定用户在特定商家购买的次数
 * 特定用户在特定商家使用优惠券购买的数量 / 特定用户对应的特定商户数量
 * 特定用户在特定商家没有使用优惠券购买的数量 / 特定用户在特定商家购买的次数
- </details>
 
-`其他特征（利用了leakage，预测区间内提取）`
-<details><summary>GetOtherFeature</summary>
- 
+### 其他特征（利用了leakage，预测区间内提取）
+#### GetOtherFeature
 * 用户领取优惠券的总数量
 * 用户领特定优惠券的领取数量  
 。。。  
 * 用户特定日期的领取数量
- </details>
 
-`优惠券相关特征`
-<details><summary>GetCouponRelatedFeature</summary>
- 
+### 优惠券相关特征
+#### GetCouponRelatedFeature 
 * 领券日期是周几
 * 领券是几月
 * 领取优惠券时期和截止日之间的天数
