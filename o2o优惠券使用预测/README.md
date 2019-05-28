@@ -31,6 +31,7 @@
 
 `用户商户交叉特征（删除重复[用户+商户]）`
 <details><summary>GetUserAndMerchantRelatedFeature</summary>
+ 
 * 特定用户在特定商家购买的次数
 * 特定用户在特定商家领取的优惠券数目
 * 特定用户在特定商家使用优惠券购买的数量
@@ -44,6 +45,7 @@
 
 `其他特征（利用了leakage，预测区间内提取）`
 <details><summary>GetOtherFeature</summary>
+ 
 * 用户领取优惠券的总数量
 * 用户领特定优惠券的领取数量  
 。。。  
@@ -52,6 +54,7 @@
 
 `优惠券相关特征`
 <details><summary>GetCouponRelatedFeature</summary>
+ 
 * 领券日期是周几
 * 领券是几月
 * 领取优惠券时期和截止日之间的天数
